@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.android.hand_cricket" >
+    package="com.example.android.HandCricket" >
 
     <application
         android:allowBackup="true"
@@ -8,14 +8,14 @@
         android:label="@string/appname"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".Menu"
+            android:name="com.example.android.HandCricket.MenuActivity"
             android:label=" " >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".Screen1"
+            android:name="com.example.android.HandCricket.LaunchActivity"
             android:label="HAND CRICKET!!!" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,50 +24,47 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".screen2"
+            android:name="com.example.android.HandCricket.LaunchNextActivity"
             android:label="HAND CRICKET" >
         </activity>
         <activity
-            android:name=".play_screen"
+            android:name="com.example.android.HandCricket.PlayTossActivity"
+            android:label=" " >
+        </activity>
+
+        <activity
+            android:name="com.example.android.HandCricket.HelpActivity"
             android:label=" " >
         </activity>
         <activity
-            android:name=".score_screen"
+            android:name="com.example.android.HandCricket.TossActivity"
             android:label=" " >
         </activity>
         <activity
-            android:name=".help_screen"
+            android:name="com.example.android.HandCricket.PlayerWinActivity"
             android:label=" " >
         </activity>
         <activity
-            android:name=".toss1_screen"
+            android:name="com.example.android.HandCricket.MainPlayActivity"
             android:label=" " >
         </activity>
         <activity
-            android:name=".uwon"
+            android:name="com.example.android.HandCricket.CompWinActivity"
             android:label=" " >
         </activity>
         <activity
-            android:name=".mainplayscrn"
-            android:label=" " >
-        </activity>
-        <activity
-            android:name=".cwon"
-            android:label=" " >
-        </activity>
-        <activity
-            android:name=".res_screen"
+            android:name="com.example.android.HandCricket.TossResultActivity"
             android:label=" " >
         </activity>
 
 
 
         <activity
-            android:name=".result"
+            android:name="com.example.android.HandCricket.ResultActivity"
             android:label=" " >
         </activity>
         <activity
-            android:name=".help_screen2"
+            android:name="com.example.android.HandCricket.HelpNextActivity"
             android:label=" " >
         </activity>
     </application>
